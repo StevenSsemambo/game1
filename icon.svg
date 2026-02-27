@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <radialGradient id="bg" cx="40%" cy="35%">
+      <stop offset="0%" stop-color="#1a4a7a"/>
+      <stop offset="100%" stop-color="#03050f"/>
+    </radialGradient>
+    <radialGradient id="planet" cx="35%" cy="35%">
+      <stop offset="0%" stop-color="#2a8acc"/>
+      <stop offset="60%" stop-color="#0a3a6a"/>
+      <stop offset="100%" stop-color="#020a18"/>
+    </radialGradient>
+  </defs>
+  <rect width="512" height="512" fill="url(#bg)" rx="80"/>
+  <circle cx="80" cy="60" r="2" fill="white" opacity="0.8"/>
+  <circle cx="420" cy="40" r="3" fill="white" opacity="0.6"/>
+  <circle cx="460" cy="120" r="1.5" fill="white" opacity="0.7"/>
+  <circle cx="40" cy="200" r="2" fill="white" opacity="0.5"/>
+  <circle cx="490" cy="280" r="2.5" fill="white" opacity="0.6"/>
+  <circle cx="256" cy="340" r="180" fill="url(#planet)" opacity="0.4"/>
+  <circle cx="256" cy="256" r="185" fill="none" stroke="#00b4ff" stroke-width="3" opacity="0.35"/>
+  <circle cx="256" cy="256" r="165" fill="none" stroke="#00b4ff" stroke-width="1.5" opacity="0.15"/>
+  <rect x="226" y="178" width="60" height="82" fill="#060c1a" stroke="#00b4ff" stroke-width="3" rx="4"/>
+  <rect x="238" y="153" width="36" height="30" fill="#060c1a" stroke="#00b4ff" stroke-width="2.5" rx="3"/>
+  <rect x="247" y="130" width="18" height="28" fill="#00b4ff" rx="2"/>
+  <rect x="254" y="143" width="48" height="9" fill="#ff6a00" rx="2"/>
+  <circle cx="254" cy="147" r="7" fill="#ff6a00"/>
+  <rect x="214" y="258" width="84" height="18" fill="#00b4ff" opacity="0.25" rx="3"/>
+  <text x="256" y="405" font-family="Arial Black,sans-serif" font-size="30" font-weight="900" fill="white" text-anchor="middle" letter-spacing="3">EARTH'S</text>
+  <text x="256" y="445" font-family="Arial Black,sans-serif" font-size="24" font-weight="900" fill="#ff6a00" text-anchor="middle" letter-spacing="2">LAST STAND</text>
+</svg>
